@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+#login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fab800, #ff0000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#errorbox {
+  color: white;
+  font-size: 0.84rem;
+  background-color: rgb(254, 60, 60);
+  border: solid, #333;
+  border-radius: 0.1rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.8rem;
+}
+
+#container {
+    background-color: white;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+  }
+  
+
+#lp {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    color: #444;
+  }
+  
+
+#user,
+#psw {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    transition: border-color 0.3s;
+  }
+  
+#user:focus,
+#psw:focus {
+    border-color: #667eea;
+    outline: none;
+  }
+  
+
+#pulsante {
+    background-color: #667eea;
+    color: white;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+#pulsante:hover {
+    background-color: #4f5fc5;
+  }
+  
+#register {
+    font-size: 0.62rem;
+    margin-top: 0.4rem;
+    background-color: #a1abeb;
+    color: white;
+    padding: 0.3rem 0.3rem;
+    border: none;
+    border-radius: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+#register:hover {
+    background-color: #4f5fc5;
+  }
+
+#loginPage {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+}
+
+#loginbutton {
+    font-size:2rem;
+    margin-top: 0.4rem;
+    background: linear-gradient(135deg, #fab800, #ff0000);
+    background-size: 200%;    
+    color: white;
+    padding: 0.3rem 0.3rem;
+    border: none;
+    border-radius: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#loginbutton:hover {
+    background: linear-gradient(135deg, #fa0000, #e5ff00);
+}
+
+#register-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, rgb(0, 238, 255), rgb(34, 0, 255));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2 {
+    background-color: white;
+    padding: 2rem 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+#rp {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    color: #444;
+}
+
+#Tos-Text,
+#ToS-Div {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+#Ruser,
+#Rpsw,
+#email {
+    width: 100%;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    transition: border-color 0.3s;
+    }
+
+#Ruser:focus,
+#Rpsw:focus,
+#email:focus {
+    border-color: #4f5fc5;
+    outline: none;
+}
+
