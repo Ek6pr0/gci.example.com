@@ -1,9 +1,4 @@
-<?php
-session_start();
-if(!isset($_SESSION["user_id"])){
-    header("Location: ../login.php");
-}
-?>
+
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
@@ -36,7 +31,6 @@ if(!isset($_SESSION["user_id"])){
     <link href="../css/sidebars.css" rel="stylesheet">
   </head>
   <body>
-    
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
   <symbol id="check2" viewBox="0 0 16 16">
     <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -135,18 +129,8 @@ if(!isset($_SESSION["user_id"])){
   </div>
   <div class="b-example-divider b-example-vr"></div>
 
-  <div class="container-fluid">
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Dashboard</h1>
-      </div>
-    <div class="row">
-        <div class="col-6">
-            <p>ciao</p>
-        </div>
-        <div class="col-6">
-            <p>ciao2</p>
-        </div>
-    </div>
+  <div>
+    <i class="fa-solid fa-file-export"></i>
   </div>
 
 </main>
