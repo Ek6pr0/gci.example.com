@@ -1,10 +1,10 @@
 <?php
-    require "../../mysqli/conn_mysqli.php";
+    require "../../db/mysqli/conn_mysqli.php";
 
     session_start();
     if(!empty($_POST)) {
         if(isset($_POST['Ruser']) && isset($_POST['Rpsw']) && isset($_POST['email'])) {
-            try {
+            try { 
 
                 // Variabili
                 $user = $_POST['Ruser'];
