@@ -16,7 +16,7 @@
                 // Execute
                 $sql->execute();
                 echo "Registrazione completata.";
-                header("Location: ../login.php");
+                header("Location: ../main/register_thanks.php");
             } 
             catch (Exception $e) {
                 $mess = $e->getMessage();

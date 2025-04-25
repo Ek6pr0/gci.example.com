@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(!isset($_SESSION["user_id"])){
+    header("Location: ../login.php");
+}
+?>
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>

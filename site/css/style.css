@@ -12,6 +12,22 @@
     justify-content: center;
     align-items: center;
   }
+#signout-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #5f0088, #ff0080);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signedout-login {
+  margin-top: 0.8rem;
+}
+
+.signedout{
+  margin-bottom: 0.5rem;
+}
 
 #errorbox {
   color: white;
@@ -99,11 +115,7 @@ label {
     background-color: #4f5fc5;
   }
 
-#loginPage {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-}
+
 
 #loginbutton {
     font-size:2rem;
@@ -180,3 +192,7 @@ label {
     outline: none;
 }
 
+#loginPage {
+  position: absolute;
+  margin-top: 30rem;
+}

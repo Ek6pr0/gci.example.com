@@ -33,7 +33,7 @@
         </div>
         <div id="loginPage">
             <a href="login.php">
-                <input type="button" id="loginbutton" value="LOGIN">
+                <input type="button" id="loginbutton" value="Login">
             </a>
         </div>
     </body>

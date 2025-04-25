@@ -1,6 +1,5 @@
 <?php
 session_start();
 session_destroy();
-echo "Logout effettuato";
+header("Location: ../main/signout.html");
 ?>
-<a href="../main/main.php">Login</a>
