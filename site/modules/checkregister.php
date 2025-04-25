@@ -19,8 +19,8 @@
                 header("Location: ../login.php");
             } 
             catch (Exception $e) {
-                echo $e->getMessage();
-                die;
+                $mess = $e->getMessage();
+                header("Location: ../register.php?error=$mess");
             }
         } 
     }
